@@ -11,7 +11,7 @@ Gesso, a CSS Primer Coat by [Joseph Bergantine](http://joebergantine.com/) is re
 Usage
 ----- 
 
-From the head of an HTML or XHTML document reference the screen.css (screen media) and print.css (print media) files and, if necessary, the ie7.css and/or ie6.css stylesheet using conditional comments. 
+From the head of an HTML or XHTML document reference the screen.css (screen media) and print.css (print media) files. 
 
 These styles are designed to work best with an XHTML 1.0 Strict Doctype and a semantics-based design technique. The package uses a normalizing stylesheet and the `<address>`, `<b>`, `<big>`, `<caption>`, `<cite>`, `<code>`, `<dfn>`, `<em>`, `<i>`, `<small>`, `<strong>`, `<th>`, `<u>`, and `<var>` elements have their default styling completely removed. Other elements are mostly reset.
 
@@ -36,9 +36,3 @@ Example Definition To Be Placed In the `<head>` of an HTML Document
 `<link rel="stylesheet" type="text/css" media="screen" href="stylesheets/screen.css" />`
 
 `<link rel="stylesheet" type="text/css" media="print" href="stylesheets/print.css" />`
-
-`<!--[if lte IE 6]>`
-`	<style type="text/css" media="screen">`
-`		@import "stylesheets/ie6.css";`
-`	</style>`
-`<![endif]-->`
