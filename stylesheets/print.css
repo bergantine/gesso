@@ -1,9 +1,9 @@
 /* -----------------------------------------------------------------------------
 
-	(c)2010 Joseph Bergantine. All rights reserved. Released under Creative Commons BY-SA 3.0 United States.
-	(http://creativecommons.org/licenses/by-sa/3.0/us/)
+    (c)2010 Joseph Bergantine. All rights reserved. Released under Creative Commons BY-SA 3.0 United States.
+    (http://creativecommons.org/licenses/by-sa/3.0/us/)
 
-	---------------------------------------------------------------------------- */
+    ---------------------------------------------------------------------------- */
 
 /* insert href values within parenthesis after a elements */
 a:link:after, a:visited:after {
@@ -17,10 +17,10 @@ a:link:after, a:visited:after {
 
 /* -----------------------------------------------------------------------------
 
-	MAKE SURE TO CHANGE siteURL.com TO THE CORRECT URL
+    MAKE SURE TO CHANGE siteURL.com TO THE CORRECT URL
 
-	---------------------------------------------------------------------------- */
+    ---------------------------------------------------------------------------- */
 
 a[href^="/"]:after {
-	content: " (http://siteURL.com" attr(href) ") ";
+    content: " (http://siteURL.com" attr(href) ") ";
 }

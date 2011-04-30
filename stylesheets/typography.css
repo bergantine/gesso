@@ -1,104 +1,104 @@
 /* -----------------------------------------------------------------------------
 
-	(c)2010 Joseph Bergantine. All rights reserved. Released under Creative Commons BY-SA 3.0 United States.
-	(http://creativecommons.org/licenses/by-sa/3.0/us/)
-	
-	Based on the baseline grid technique. 
-	http://dev.opera.com/articles/view/setting-web-type-to-a-baseline-grid/
+    (c)2010 Joseph Bergantine. All rights reserved. Released under Creative Commons BY-SA 3.0 United States.
+    (http://creativecommons.org/licenses/by-sa/3.0/us/)
+    
+    Based on the baseline grid technique. 
+    http://dev.opera.com/articles/view/setting-web-type-to-a-baseline-grid/
 
 ----------------------------------------------------------------------------- */
 
 /* -----------------------------------------------------------------------------
 
-	REMEMBER TO INCLUDE THE PostScript NAME OF FONTS FOR SAFARI
+    REMEMBER TO INCLUDE THE PostScript NAME OF FONTS FOR SAFARI
 
-	---------------------------------------------------------------------------- */
+    ---------------------------------------------------------------------------- */
 
 /* !Element-level Declarations */
 
-	html {
-		font-size: 100.01%; /* fixes some browser bugs (IE, Opera) see http://www.communitymx.com/content/article.cfm?cid=FAF76&print=true for more info */
-	}
-	
-	body,
-	textarea {
-		font-family: 'Lucida Grande', LucidaGrande, 'Lucida Sans', LucidaSans, 'Lucida Sans Unicode', LucidaSansUnicode, 'Bitstream Vera Sans', BitstreamVeraSans-Roman, Verdana, sans-serif;
-		line-height: 18px;
-	}
-	
-	h1 {
-		font-size: 27px;
-		margin: 18px 0; /* set to line height */
-	}
-	
-	h2 {
-		font-size: 21px;
-		margin: 18px 0; /* set to line height */
-	}
-	
-	h3 {
-		font-size: 15px;
-		margin: 18px 0; /* set to line height */
-	}
-	
-	h4, h5, h6, 
-	p, 
-	ul, ol, dl, 
-	
-	address,
-	form,
-	table {
-		font-size: 12px;
-		margin: 18px 0; /* set to line height */
-	}
-	
-	h5, h6 {
-		margin-bottom: -18px; /* suck up to type below */
-	}
-	
-	button, input, label, select, textarea {
-		font-size: 12px; /* get all form elements to the same font size */
-	}
-	
-	blockquote p {
-		margin-top: 0; /* reset margin */
-		margin-bottom: 0; /* reset margin */
-	}
-	
-	code, kbd, samp, tt {
-		font-family: 'Menlo Regular', Menlo-Regular, 'Deja Vu Sans Mono', DejaVuSansMono, 'Bitsream Vera Sans Mono', BitstreamVeraSansMono-Roman, 'Liberation Mono', LiberationMono-Regular, Monaco, 'Lucida Console', LucidaConsole, 'Courier Std Medium', CourierStd, 'Courier New', CourierNewPSMT, Courier, 'Andale Mono', AndaleMono, monospace;
-	}
-	
-	sub, sup {
-		font-size: 70%;
-	}
-	
-	sub sub,
-	sup sup {
-	   font-size: 80%;
-	}
-	
-	strong {
-		font-weight: bold;
-	}
-	
-	em {
-		font-family: 'Hoefler Text', HoeflerText-Regular, Cambria, Calluna, Calluna-Regular, Georgia, Palatino, Palatino-Roman, Times, Times-Roman, 'Times New Roman', TimesNewRomanPSMT, serif;
-		font-style: italic;
-		font-size: 110%;
-	}
-	
+    html {
+        font-size: 100.01%; /* fixes some browser bugs (IE, Opera) see http://www.communitymx.com/content/article.cfm?cid=FAF76&print=true for more info */
+    }
+    
+    body,
+    textarea {
+        font-family: 'Lucida Grande', LucidaGrande, 'Lucida Sans', LucidaSans, 'Lucida Sans Unicode', LucidaSansUnicode, 'Bitstream Vera Sans', BitstreamVeraSans-Roman, Verdana, sans-serif;
+        line-height: 18px;
+    }
+    
+    h1 {
+        font-size: 27px;
+        margin: 18px 0; /* set to line height */
+    }
+    
+    h2 {
+        font-size: 21px;
+        margin: 18px 0; /* set to line height */
+    }
+    
+    h3 {
+        font-size: 15px;
+        margin: 18px 0; /* set to line height */
+    }
+    
+    h4, h5, h6, 
+    p, 
+    ul, ol, dl, 
+    
+    address,
+    form,
+    table {
+        font-size: 12px;
+        margin: 18px 0; /* set to line height */
+    }
+    
+    h5, h6 {
+        margin-bottom: -18px; /* suck up to type below */
+    }
+    
+    button, input, label, select, textarea {
+        font-size: 12px; /* get all form elements to the same font size */
+    }
+    
+    blockquote p {
+        margin-top: 0; /* reset margin */
+        margin-bottom: 0; /* reset margin */
+    }
+    
+    code, kbd, samp, tt {
+        font-family: 'Menlo Regular', Menlo-Regular, 'Deja Vu Sans Mono', DejaVuSansMono, 'Bitsream Vera Sans Mono', BitstreamVeraSansMono-Roman, 'Liberation Mono', LiberationMono-Regular, Monaco, 'Lucida Console', LucidaConsole, 'Courier Std Medium', CourierStd, 'Courier New', CourierNewPSMT, Courier, 'Andale Mono', AndaleMono, monospace;
+    }
+    
+    sub, sup {
+        font-size: 70%;
+    }
+    
+    sub sub,
+    sup sup {
+       font-size: 80%;
+    }
+    
+    strong {
+        font-weight: bold;
+    }
+    
+    em {
+        font-family: 'Hoefler Text', HoeflerText-Regular, Cambria, Calluna, Calluna-Regular, Georgia, Palatino, Palatino-Roman, Times, Times-Roman, 'Times New Roman', TimesNewRomanPSMT, serif;
+        font-style: italic;
+        font-size: 110%;
+    }
+    
 /* !Sitewide Delcarations */
-	
-	.caps {
-		text-transform: uppercase;
-		font-size: 80%;
-		letter-spacing: .1em;
-	}
-	
-	.amp {
-		font-family: 'Hoefler Text', HoeflerText-Regular, Cambria, Calluna, Calluna-Regular, Georgia, Palatino, Palatino-Roman, Times, Times-Roman, 'Times New Roman', TimesNewRomanPSMT, serif;
-		font-size: 120%;
-		margin-left: .15em;
-		margin-right: .18em;
-	}
+    
+    .caps {
+        text-transform: uppercase;
+        font-size: 80%;
+        letter-spacing: .1em;
+    }
+    
+    .amp {
+        font-family: 'Hoefler Text', HoeflerText-Regular, Cambria, Calluna, Calluna-Regular, Georgia, Palatino, Palatino-Roman, Times, Times-Roman, 'Times New Roman', TimesNewRomanPSMT, serif;
+        font-size: 120%;
+        margin-left: .15em;
+        margin-right: .18em;
+    }
