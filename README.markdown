@@ -3,6 +3,11 @@ Gesso
 
 Gesso is best described as a primer coat for a CSS project; more than a CSS Reset and less than a CSS Framework.
 
+Prefer to Work with SASS rather than raw CSS?
+---------------------------------------------
+
+This project has been ported into SASS as well. Check out [compass-gesso](https://github.com/jbergantine/compass-gesso).
+
 Usage
 ----- 
 
