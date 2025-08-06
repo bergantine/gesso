@@ -3,15 +3,10 @@ Gesso
 
 Gesso is best described as a primer coat for a CSS project; more than a CSS Reset and less than a CSS Framework.
 
-Prefer to Work with SASS rather than raw CSS?
----------------------------------------------
-
-This project has been ported into SASS as well. Check out [compass-gesso](https://github.com/jbergantine/compass-gesso).
-
 Usage
 ----- 
 
-From the head of an HTML or XHTML document reference the normalize.css, typgoraphy.css, screen.css (screen media) and print.css (print media) files IN THAT ORDER. DO NOT specify a media type for normalize or typogrpahy but MAKE SURE TO SPECIFY MEDIA TYPE for the screen and print stylesheets. (Gesso deliberately does not utilize @import to take advantage of server-side compression).
+From the head of an HTML or XHTML document reference the normalize.css, typgoraphy.css, screen.css (screen media) and print.css (print media) files IN THAT ORDER. DO NOT specify a media type for normalize or typography but MAKE SURE TO SPECIFY MEDIA TYPE for the screen and print stylesheets. (Gesso deliberately does not utilize @import to take advantage of server-side compression).
 
 These styles are designed to work best with an XHTML 1.0 Strict Doctype and a semantics-based design technique. The package uses a normalizing stylesheet and the `<address>`, `<b>`, `<big>`, `<caption>`, `<cite>`, `<code>`, `<dfn>`, `<em>`, `<i>`, `<small>`, `<strong>`, `<th>`, `<u>`, and `<var>` elements have their default styling completely removed. Other elements are mostly reset.
 
